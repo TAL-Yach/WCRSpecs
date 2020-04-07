@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:MagicSchooliOS/WCRLiveCorePod.git", :tag => "#{s.version}"  }
 
   s.vendored_frameworks = ["Frameworks/*.framework"]
+  s.static_framework = true
 
 end
